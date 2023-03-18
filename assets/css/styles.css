@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212529 ;
+
+}
+
+#header {
+    background-color: rgb(255, 212, 70);
+}
+.h1-header {
+    font-size: 30px;
+    color: #212529 ;
+}
+
+.section-profile {
+    margin-top: 30px;
+    height: 600px;
+    background-color:#212529;
+}
+h1.name{
+    margin-top: 100px;
+    color: rgb(255, 212, 70) ;
+}
+
+#btn-profile {
+    background-color: rgb(255, 212, 70) ;
+    border-radius: 20px;
+}
+#btn-profile2 {
+    background-color: rgba(75, 75, 75, 0) ;
+    border: solid white 1px;
+    border-radius: 20px;
+    color: white;
+}
+
+.img-profile {
+    width: 50%;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.img-profile2 {
+    width: 75%;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.aboutme {
+    margin-top: 200px;
+}
+
+.h1-aboutme {
+    
+    color:  rgb(255, 212, 70) ;
+    margin-bottom: 65px;
+}
+
+.td1 {
+    
+    color:  rgb(255, 212, 70);
+}
+
+td {
+    padding: 15px 30px;
+    color: white;
+}
+
+#btn-aboutme {
+    background-color: rgb(255, 212, 70) ;
+    margin-top: 50px;
+    color: white;
+    border-radius: 20px;
+}
+
+.porto-1 {
+    margin-top: 250px;
+}
+#card-porto1 {
+    height: 550px;
+    background-color: #3f3f3f;
+}
+
+h2.porto1 {
+    color: rgb(255, 212, 70);
+}
+
+
+.h1-porto2 {
+    color: rgb(255, 212, 70);
+    margin-top: 200px;
+}
+
+.img-porto2 {
+    width: 75%;
+    margin-top: 100px;
+
+}
+
+footer {
+    margin-top: 200px;
+    background-color: rgb(255, 212, 70) ;
+}
+
+
+@media screen and (max-width: 600px) {
+    .img-profile {
+        display: none;
+    }
+  }

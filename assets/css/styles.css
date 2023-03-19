@@ -30,11 +30,22 @@ h1.name{
     background-color: rgb(255, 212, 70) ;
     border-radius: 20px;
 }
+
+#btn-profile:hover {
+    background-color: rgba(75, 75, 75, 0) ;
+    border-color: white;
+    color: white;
+}
+
 #btn-profile2 {
     background-color: rgba(75, 75, 75, 0) ;
     border: solid white 1px;
     border-radius: 20px;
     color: white;
+}
+
+#btn-profile2:hover {
+    background-color: rgb(255, 212, 70) ;
 }
 
 .img-profile {
@@ -76,6 +87,11 @@ td {
     border-radius: 20px;
 }
 
+#btn-aboutme:hover {
+    background-color: rgba(75, 75, 75, 0) ;
+    border-color: white;
+}
+
 .porto-1 {
     margin-top: 250px;
 }
@@ -94,9 +110,12 @@ h2.porto1 {
     margin-top: 200px;
 }
 
+#cont-porto2 {
+    margin-top: 100px;
+}
+
 .img-porto2 {
     width: 75%;
-    margin-top: 100px;
 
 }
 
@@ -106,8 +125,13 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
     .img-profile {
         display: none;
     }
+    .img-porto2 {
+        width: 100%;
+    
+    }
+
   }

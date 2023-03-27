@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="assets/vendor/riki-builder/css/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/vendor/riki-builder/css/riki_block.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   
     <title>Portofolio Website Yudi Heryanto</title>
 </head>
@@ -36,9 +38,6 @@
                   <a class="nav-link text-white" href="#aboutme">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#porto-1">Portofolio</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link text-white" href="#Organization">Organization</a>
                 </li>
                 <li class="nav-item">
@@ -53,7 +52,7 @@
       </header>
 
       <!--Profile 1-->
-      <section class="section-profile" id="section-profile">
+      <section class="section-profile" id="section-profile" data-aos="fade-up">
         <div class="col-fill-right" style="background-image: url(/vendor/rikiblock/images/people/6.jpg);">
         </div>
       
@@ -67,16 +66,14 @@
                 </p>
               <p class="mt-4">
                 <a class="btn" id="btn-profile" href="https://wa.me/62895417094343?text= ">Hire Me</a>
-                <a class="btn ms-3"  id="btn-profile2" href="#porto-1">My Work</a>
+                <a class="btn ms-3"  id="btn-profile2" href="#Organization">My Work</a>
               </p>
       
               <p class="text-dark">Follow us on</p>
               <p>
-                <a href="#" class="mx-2 text-white"><i class="bi bi-twitter" aria-hidden="true"></i></a>
-                <a href="#" class="mx-2 text-white"><i class="bi bi-facebook" aria-hidden="true"></i></a>
-                <a href="#" class="mx-2 text-white"><i class="bi bi-instagram" aria-hidden="true"></i></a>
-                <a href="#" class="mx-2 text-white"><i class="bi bi-pinterest" aria-hidden="true"></i></a>
-                <a href="#" class="mx-2 text-white"><i class="bi bi-google" aria-hidden="true"></i></a>
+                <a href="https://instagram.com/andreasyudi2?igshid=YmMyMTA2M2Y=" class="mx-2 text-white"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/yudi-heryanto-933738218" class="mx-2 text-white"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:yudiheryanto65@gmail.com" class="mx-2 text-white"><i class="bi bi-envelope"></i></a>
               </p>
             </div>
             <div class="col-12 col-md-6 text-center">
@@ -91,11 +88,11 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-10 col-sm-6 m-auto col-md-4 pb-4 pb-md-0">
-              <center><img alt="image" class="img-profile2" src="assets/img/200kb.jpg"></center>
+              <center><img alt="image" class="img-profile2" data-aos="fade-up" src="assets/img/200kb.jpg"></center>
             </div>
       
-            <div class="col-12 ms-auto col-md-6 col-lg-5">
-              <center><h1 class="h1-aboutme">About me</h1></center>
+            <div class="col-12 ms-auto col-md-6 col-lg-5" data-aos="fade-up">
+              <center><h1 class="h1-aboutme" >About me</h1></center>
               <table>
                 <tr>
                     <td class="td1">Nama</td>
@@ -118,7 +115,7 @@
                 <td>: 0895417094343</td>
             </tr>
             </table>
-              <center><p><a class="btn " id="btn-aboutme" href="#">Download CV</a></p></center>
+              <center><p><a class="btn " id="btn-aboutme" href="https://docs.google.com/uc?export=download&id=1AvqGq_3PKIRViMP5G7K5SbKhdF70OQJB" download>Download CV</a></p></center>
             </div>
           </div>
         </div>
@@ -126,17 +123,18 @@
 
 
       <!--Portofolio 1-->
-      <section class="porto-1" id="porto-1">
+      
+      <section class="porto-1" id="porto-1" data-aos="fade-up">
         <div class="container">
           <div class="row text-center">
             <div class="col">
-              <h1 class="text-light">My Work</h1>
+              <h1 class="text-light" data-aos="fade-up">My Work</h1>
             </div>
           </div>
       
-          <div class="row mt-5 align-items-center">
+          <div class="row mt-5 align-items-center" >
             <div class="col-12 col-sm-10 col-md-8 col-md-8 m-auto col-lg-4 text-center">
-              <div class="fdb-box shadow pb-5 pt-5 ps-3 pe-3 rounded" id="card-porto1">
+              <div class="fdb-box shadow pb-5 pt-5 ps-3 pe-3 rounded" id="card-porto1" data-aos="fade-up-left">
                 <h2 class="porto1">Toko Cat Abadi Pemalang</h2>
                 <p class="lead"><strong>Controller</strong></p>
                 <p class="h3 font-weight-light text-white">Oktober 2021 - Desember 2021</p>
@@ -151,7 +149,7 @@
       
       
             <div class="col-12 col-sm-10 col-md-8 col-md-8 m-auto col-lg-4 text-center pt-4 pt-lg-0">
-              <div class="fdb-box shadow pb-5 pt-5 ps-3 pe-3 rounded" id="card-porto1">
+              <div class="fdb-box shadow pb-5 pt-5 ps-3 pe-3 rounded" id="card-porto1" data-aos="fade-up-right">
                 <h2 class="porto1">Dinas Kesehatan Kabupaten Pemalang</h2>
                 <p class="lead"><strong>Controller</strong></p>
                 <p class="h3 font-weight-light text-white">Januari 2022 - Maret 2022</p>
@@ -167,20 +165,20 @@
           </div>
         </div>
       </section>
-
+    
       <!--Portofolio 2-->
 
-      <section class="porto-2" id="Organization">
+      <section class="porto-2" id="Organization" data-aos="fade-up"> 
         <div class="container">
           <div class="row text-center">
             <div class="col-12">
-              <h1 class="h1-porto2">Organization Experience</h1>
+              <h1 class="h1-porto2" data-aos="fade-up">Organization Experience</h1>
             </div>
           </div>
       
           <div class="row text-center justify-content-center" id="cont-porto2">
             <div class="col-12 col-sm-4 col-xl-3 ">
-              <center><img alt="image" class="img-porto2" src="assets/img/IMG-20230318-WA0004 new.jpg"></center>
+              <center><img alt="image" class="img-porto2" data-aos="fade-up-left" src="assets/img/IMG-20230318-WA0004 new.jpg"></center>
               <center><h3 class="text-white"><strong>Koordinasi Acara</strong></h3></center>
               <div>
                 <center><p>Menyusun alur acara natal dan mengkoordinasi jalannya acara</p></center>
@@ -188,7 +186,7 @@
             </div>
       
             <div class="col-12 col-sm-4 col-xl-3 pt-4 pt-sm-0">
-              <center><img alt="image" class="img-porto2" src="assets/img/IMG-20230318-WA0005.jpg"></center>
+              <center><img alt="image" class="img-porto2" data-aos="fade-up-right" src="assets/img/IMG-20230318-WA0005.jpg"></center>
               <center><h3 class="text-white"><strong>Multimedia</strong></h3></center>
               <div>
                 <center><p>Membuat konsep video, mengedit foto, mengkoordinasi jalannya acara,mengedit video</p></center>
@@ -212,9 +210,6 @@
                   <a class="nav-link text-dark" href="#aboutme">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="#porto-1">Portofolio</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link text-dark" href="#Organization">Organization</a>
                 </li>
                 <li class="nav-item">
@@ -226,5 +221,30 @@
           </div>
         </div>
       </footer>
+
+      <script>
+        AOS.init({
+            // Global settings:
+            disable: false,
+            startEvent: 'DOMContentLoaded',
+            initClassName: 'aos-init', 
+            animatedClassName: 'aos-animate', 
+            useClassNames: false, 
+            disableMutationObserver: false, 
+            debounceDelay: 50, 
+            throttleDelay: 99, 
+            
+        
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, 
+            delay: 0, 
+            duration: 1000, 
+            easing: 'ease', 
+            once: false, 
+            mirror: false, 
+            anchorPlacement: 'top-bottom',
+        
+        });
+        </script>
 </body>
 </html>

@@ -116,7 +116,8 @@ h2.porto1 {
 
 .img-porto2 {
     width: 75%;
-
+    position: relative;
+    overflow-x: hidden;
 }
 
 footer {
@@ -125,15 +126,18 @@ footer {
 }
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 660px) {
     .img-profile {
         display: none;
     }
     .img-porto2 {
-        width: 100%;
+        width: 75%;
     
     }
-    
+    #card-porto1 {
+        width: 75%;
+        overflow: hidden;
+    }
     
 
 
